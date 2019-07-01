@@ -31,11 +31,11 @@
     // Scroll Bar Control
     "scrollbar.shadow": "#25283300",
     "scrollbarSlider.activeBackground": "#76a3c3",
-    "scrollbarSlider.background": "#25283350",
-    "scrollbarSlider.hoverBackground": "#25283330",
+    "scrollbarSlider.background": "#454b5f50",
+    "scrollbarSlider.hoverBackground": "#517186",
 
     // Badge
-    "badge.background": "#81a1c1",
+    "badge.background": "#bb6ea7",
     "badge.foreground": "#fff",
 
     // Progress Bar
@@ -44,9 +44,10 @@
     // Lists and Trees
     "list.activeSelectionBackground": "#81a1c130",
     "list.activeSelectionForeground": "#fff",
+    "list.focusBackground": "#51667a30",
     "list.focusForeground": "#b0bcd3",
     "list.highlightForeground": "#76a3c380",
-    "list.hoverBackground": "#252833",
+    "list.hoverBackground": "#51667a30",
     "list.hoverForeground": "#b0bcd3",
     "list.inactiveSelectionBackground": "#81a1c130",
     "list.inactiveSelectionForeground": "#b0bcd3",
@@ -56,23 +57,23 @@
     "statusBar.background": "#252833",
     "statusBar.border": "#252833",
     "statusBar.debuggingBackground": "#bb6ea7",
-    "statusBar.debuggingForeground": "#b0bcd3",
+    "statusBar.debuggingForeground": "#e8f1ff",
     "statusBar.foreground": "#737c94",
     "statusBar.noFolderBackground": "#252833",
     "statusBarItem.hoverBackground": "#3b404d",
 
     // Activity Bar
-    "activityBar.background": "#252833",
-    "activityBar.border": "#252833",
+    "activityBar.background": "#1b1d25",
+    "activityBar.border": "#1b1d25",
     "activityBar.foreground": "#737c94",
-    "activityBarBadge.background": "#81a1c1",
+    "activityBarBadge.background": "#bb6ea7",
     "activityBarBadge.foreground": "#fff",
 
     // Sidebar
     "sideBar.background": "#252833",
     "sideBar.border": "#252833",
     "sideBar.foreground": "#737c94",
-    "sideBarSectionHeader.background": "#252833",
+    "sideBarSectionHeader.background": "#20232c",
     "sideBarTitle.foreground": "#b0bcd3",
 
     // Editor Groups & Tabs
@@ -90,12 +91,12 @@
     // Editor
     "editor.background": "#252833",
     "editor.foreground": "#b0bcd3",
-    "editor.findMatchBackground": "#81a1c160",
-    "editor.findMatchHighlightBackground": "#81a1c140",
-    "editor.lineHighlightBackground": "#3b404d",
-    "editor.rangeHighlightBackground": "#737c94",
+    "editor.findMatchBackground": "#637b9460",
+    "editor.findMatchHighlightBackground": "#637b9460",
+    "editor.lineHighlightBackground": "#2d313b",
+    // "editor.rangeHighlightBackground": "#737c94",
     "editor.selectionBackground": "#81a1c160",
-    "editor.selectionHighlightBackground": "#81a1c160",
+    "editor.selectionHighlightBackground": "#637b9460",
     "editorBracketMatch.background": "#81a1c130",
     "editorBracketMatch.border": "#81a1c130",
 
@@ -103,7 +104,7 @@
 
     "editorIndentGuide.background": "#3b404d",
     "editorLineNumber.foreground": "#3b404d",
-    "editorLineNumber.activeForeground": "#3b404d",
+    "editorLineNumber.activeForeground": "#81a1c1",
     "editorLink.activeForeground": "#b0bcd3",
     "editorMarkerNavigation.background": "#b0bcd305",
     "editorOverviewRuler.border": "#3b404d",
@@ -148,15 +149,16 @@
     "peekViewTitleDescription.foreground": "#b0bcd360",
 
     // Diff editor
-    "diffEditor.insertedTextBackground": "#76a3c380",
-    "diffEditor.removedTextBackground": "#bb6ea780",
+    "diffEditor.insertedTextBackground": "#07f02e27",
+    "diffEditor.removedTextBackground": "#ff004c2f",
 
     // Title bar
-    "titleBar.activeBackground": "#252833",
-    "titleBar.activeForeground": "#252833",
-    "titleBar.border": "#25283360",
-    "titleBar.inactiveBackground": "#252833",
-    "titleBar.inactiveForeground": "#252833",
+    "titleBar.activeBackground": "#1b1d25",
+    // "titleBar.activeForeground": "#252833",
+    // "titleBar.border": "#25283360",
+    "titleBar.inactiveBackground": "#1b1d25",
+    // "titleBar.inactiveForeground": "#252833",
+    "menu.border": "#3b404d",
 
     // Terminal
     "terminal.ansiBlack": "#3b4252",
@@ -187,7 +189,7 @@
     "gitDecoration.addedResourceForeground": "#8dc6bf",
     "gitDecoration.conflictingResourceForeground": "#bf616a",
     "gitDecoration.deletedResourceForeground": "#bf616a",
-    "gitDecoration.ignoredResourceForeground": "#b0bcd360",
+    "gitDecoration.ignoredResourceForeground": "#777f8f60",
     "gitDecoration.modifiedResourceForeground": "#76a3c3",
     "gitDecoration.untrackedResourceForeground": "#f2db9a",
 
@@ -199,7 +201,8 @@
     "settings.checkboxBorder": "#76a3c3",
 
     // Other
-    "debugToolBar.background": "#252833",
+    "debugToolBar.background": "#1b1d25",
+    "editor.stackFrameHighlightBackground" :"#81a1c130"
 
   },
   "tokenColors": [
@@ -213,12 +216,14 @@
       "scope": "constant.language",
       "settings": {
         "foreground": "#f2db9a"
+        // "foreground": "#f2db9a"
       }
     },
     {
       "scope": "constant.numeric",
       "settings": {
         "foreground": "#76a3c3"
+        // "foreground": "#f2db9a"
       }
     },
     {
@@ -316,7 +321,7 @@
       "scope": "storage.type, storage.modifier",
       "settings": {
         "foreground": "#8dc6bf",
-        "fontStyle": "italic"
+        "fontStyle": "bold"
       }
     },
     {
