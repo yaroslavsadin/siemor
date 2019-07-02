@@ -131,16 +131,16 @@
 
     // Editor widget
     "editorHoverWidget.background": "#252833",
-    "editorHoverWidget.border": "#b0bcd310",
+    "editorHoverWidget.border": "#3b404d",
     "editorSuggestWidget.background": "#252833",
-    "editorSuggestWidget.border": "#b0bcd310",
+    "editorSuggestWidget.border": "#3b404d",
     "editorSuggestWidget.foreground": "#b0bcd3",
     "editorSuggestWidget.highlightForeground": "#3dc4b4",
     "editorSuggestWidget.selectedBackground": "#3d587460",
     "editorWidget.background": "#252833",
 
     // Peek view colors
-    "peekView.border": "#25283330",
+    "peekView.border": "#3b404d",
     "peekViewEditor.background": "#b0bcd305",
     "peekViewEditor.matchHighlightBackground": "#25283350",
     "peekViewEditorGutter.background": "#b0bcd305",
