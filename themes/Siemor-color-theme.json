@@ -125,8 +125,8 @@
     "pickerGroup.foreground": "#76a3c3",
 
     // Extensions
-    "extensionButton.prominentBackground": "#8dc6bf",
-    "extensionButton.prominentHoverBackground": "#8dc6bf",
+    "extensionButton.prominentBackground": "#3e5754",
+    "extensionButton.prominentHoverBackground": "#3e5754",
 
     // Editor widget
     "editorHoverWidget.background": "#252833",
@@ -304,13 +304,13 @@
         "fontStyle": "italic"
       }
     },
-    {
-      "scope": "keyword.control.flow",
-      "settings": {
-        "foreground": "#bb6ea7",
-        "fontStyle": "italic"
-      }
-    },
+    // {
+    //   "scope": "keyword.control.flow",
+    //   "settings": {
+    //     "foreground": "#bb6ea7",
+    //     "fontStyle": "italic"
+    //   }
+    // },
     {
       "scope": "entity.name.function, support.function",
       "settings": {
