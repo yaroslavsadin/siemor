@@ -192,7 +192,7 @@
     "gitDecoration.deletedResourceForeground": "#bf616a",
     "gitDecoration.ignoredResourceForeground": "#777f8f60",
     "gitDecoration.modifiedResourceForeground": "#76a3c3",
-    "gitDecoration.untrackedResourceForeground": "#f2db9a",
+    "gitDecoration.untrackedResourceForeground": "#2b7541",
 
     // Settings
     "settings.headerForeground": "#76a3c3",
