@@ -30,7 +30,7 @@
 
     // Scroll Bar Control
     "scrollbar.shadow": "#25283300",
-    "scrollbarSlider.activeBackground": "#76a3c3",
+    "scrollbarSlider.activeBackground": "#283842b0",
     "scrollbarSlider.background": "#454b5f50",
     "scrollbarSlider.hoverBackground": "#517186",
 
@@ -192,7 +192,7 @@
     "gitDecoration.deletedResourceForeground": "#bf616a",
     "gitDecoration.ignoredResourceForeground": "#777f8f60",
     "gitDecoration.modifiedResourceForeground": "#76a3c3",
-    "gitDecoration.untrackedResourceForeground": "#2b7541",
+    "gitDecoration.untrackedResourceForeground": "#3fa35d",
 
     // Settings
     "settings.headerForeground": "#76a3c3",
@@ -222,7 +222,7 @@
     {
       "scope": "constant.numeric",
       "settings": {
-        "foreground": "#76a3c3"
+        "foreground": "#bf616a"
       }
     },
     {
