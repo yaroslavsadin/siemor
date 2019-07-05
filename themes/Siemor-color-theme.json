@@ -30,9 +30,9 @@
 
     // Scroll Bar Control
     "scrollbar.shadow": "#25283300",
-    "scrollbarSlider.activeBackground": "#283842b0",
+    "scrollbarSlider.activeBackground": "#454b5f50",
     "scrollbarSlider.background": "#454b5f50",
-    "scrollbarSlider.hoverBackground": "#517186",
+    "scrollbarSlider.hoverBackground": "#454b5fb4",
 
     // Badge
     "badge.background": "#bb6ea7",
@@ -97,9 +97,9 @@
     "editor.lineHighlightBackground": "#2d313b",
     // "editor.rangeHighlightBackground": "#737c94",
     "editor.selectionBackground": "#81a1c160",
-    "editor.selectionHighlightBackground": "#637b9460",
-    "editorBracketMatch.background": "#81a1c130",
-    "editorBracketMatch.border": "#81a1c130",
+    "editor.selectionHighlightBackground": "#637b943a",
+    "editorBracketMatch.background": "#252833",
+    "editorBracketMatch.border": "#bb6ea7",
 
     "editorCursor.foreground": "#ffffff",
 
@@ -113,10 +113,13 @@
     "editorWhitespace.foreground": "#3b404d",
 
     "editorWarning.foreground": "#8dc6bf",
-    "editorError.foreground": "#bb6ea7",
-    "editorGutter.addedBackground": "#8dc6bf",
-    "editorGutter.deletedBackground": "#bb6ea7",
-    "editorGutter.modifiedBackground": "#f2db9a",
+    "editorError.foreground": "#bf616a",
+    // "editorGutter.addedBackground": "#8dc6bf",
+    // "editorGutter.deletedBackground": "#bb6ea7",
+    // "editorGutter.modifiedBackground": "#f2db9a",
+    "editorGutter.addedBackground": "#3fa35dad",
+    "editorGutter.deletedBackground": "#bb6ea6bb",
+    "editorGutter.modifiedBackground": "#3c89c0ab",
 
     "focusBorder": "#b0bcd300",
     "textLink.activeForeground": "#b0bcd3",
@@ -286,9 +289,12 @@
       }
     },
     {
-      "scope": "keyword",
+      "scope": [
+        "keyword",
+        "punctuation.definition.directive",
+				"punctuation.separator.hash"],
       "settings": {
-        "foreground": "#f2db9a"
+        "foreground": "#f2db9a",
       }
     },
     {
@@ -496,10 +502,10 @@
       }
     },
     {
-      "scope": "meta.brace, punctuation.definition.parameters, punctuation.definition.block, punctuation.terminator.statement, punctuation.separator.comma, punctuation.section.embedded",
+      "scope": "punctuation, meta.brace, punctuation.definition.parameters, punctuation.definition.block, punctuation.terminator.statement, punctuation.separator.comma, punctuation.section.embedded",
       "settings": {
         "foreground": "#76a3c370"
       }
-    }
+    }    
   ]
 }
