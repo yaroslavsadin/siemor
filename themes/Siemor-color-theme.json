@@ -199,7 +199,7 @@
 
     // Settings
     "settings.headerForeground": "#76a3c3",
-    "settings.modifiedItemIndicator": "#f2db9a",
+    "settings.modifiedItemIndicator": "#3c89c0ab",
     "settings.checkboxBackground": "#3e5754",
     "settings.checkboxForeground": "#76a3c3",
     "settings.checkboxBorder": "#76a3c3",
@@ -277,9 +277,9 @@
       }
     },
     {
-      "scope": "variable.language.this",
+      "scope": "variable.language.this, variable.parameter.function.language.special.self, variable.language",
       "settings": {
-        "fontStyle": "italic"
+        "fontStyle": "bold"
       }
     },
     {
@@ -317,7 +317,7 @@
     //   }
     // },
     {
-      "scope": "entity.name.function, support.function",
+      "scope": "entity.name.function, support.function, meta.function-call.generic.python",
       "settings": {
         "foreground": "#76a3c3"
       }
