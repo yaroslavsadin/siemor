@@ -370,7 +370,8 @@
     {
       "scope": "meta.function entity.name.function",
       "settings": {
-        "foreground": "#76a3c3"
+        "foreground": "#76a3c3",
+        "fontStyle": "bold"
       }
     },
     {
