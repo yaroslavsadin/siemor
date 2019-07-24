@@ -273,7 +273,7 @@
     {
       "scope": "support.variable.property, variable.other.property",
       "settings": {
-        "foreground": "#b0bcd3"
+        "foreground": "#d3b0c5"
       }
     },
     {
