@@ -60,7 +60,7 @@
     "statusBar.debuggingForeground": "#e8f1ff",
     "statusBar.foreground": "#737c94",
     "statusBar.noFolderBackground": "#252833",
-    "statusBarItem.hoverBackground": "#3b404d",
+    "statusBarItem.hoverBackground": "#81a1c130",
 
     // Activity Bar
     "activityBar.background": "#20232c",
