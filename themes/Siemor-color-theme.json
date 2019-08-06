@@ -153,8 +153,10 @@
     "peekViewTitleDescription.foreground": "#b0bcd360",
 
     // Diff editor
-    "diffEditor.insertedTextBackground": "#07f02e27",
-    "diffEditor.removedTextBackground": "#ff004c2f",
+    "diffEditor.insertedTextBackground": "#00ff2a10",
+    "diffEditor.insertedTextBorder": "#00ff2a31",
+    "diffEditor.removedTextBorder": "#ff00803a",
+    "diffEditor.removedTextBackground": "#ff008025",
 
     // Title bar
     "titleBar.activeBackground": "#20232c",
