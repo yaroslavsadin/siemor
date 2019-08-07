@@ -154,8 +154,8 @@
 
     // Diff editor
     "diffEditor.insertedTextBackground": "#00ff2a10",
-    "diffEditor.insertedTextBorder": "#00ff2a13",
-    "diffEditor.removedTextBorder": "#ff008027",
+    // "diffEditor.insertedTextBorder": "#00ff2a11",
+    // "diffEditor.removedTextBorder": "#ff008026",
     "diffEditor.removedTextBackground": "#ff008025",
 
     // Title bar
