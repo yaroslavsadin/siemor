@@ -311,13 +311,12 @@
         "fontStyle": "italic"
       }
     },
-    // {
-    //   "scope": "keyword.control.flow",
-    //   "settings": {
-    //     "foreground": "#bb6ea7",
-    //     "fontStyle": "italic"
-    //   }
-    // },
+    {
+      "scope": "constant.character.escape",
+      "settings": {
+        "foreground": "#76a3c370"
+      }
+    },
     {
       "scope": "entity.name.function, support.function, meta.function-call.generic.python",
       "settings": {
