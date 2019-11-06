@@ -207,7 +207,7 @@
     "settings.checkboxBorder": "#76a3c3",
 
     // Other
-    "debugToolBar.background": "#1b1d25",
+    "debugToolBar.background": "#252833",
     "editor.stackFrameHighlightBackground" :"#81a1c130",
 
   },
@@ -221,7 +221,7 @@
     {
       "scope": "constant.language",
       "settings": {
-        "foreground": "#f2db9a"
+        "foreground": "#bf616a"
       }
     },
     {
@@ -409,6 +409,12 @@
       "scope": "source.css",
       "settings": {
         "foreground": "#f2db9a"
+      }
+    },
+    {
+      "scope": "entity.name.namespace",
+      "settings": {
+        "foreground": "#8dc6bf"
       }
     },
     {
