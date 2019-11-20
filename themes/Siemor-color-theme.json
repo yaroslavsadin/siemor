@@ -414,8 +414,8 @@
     {
       "scope": "entity.name.namespace",
       "settings": {
-        "foreground": "#76a3c39a",
-        "fontStyle": "bold"
+        "foreground": "#b0bcd3",
+        "fontStyle": "italic"
       }
     },
     {
