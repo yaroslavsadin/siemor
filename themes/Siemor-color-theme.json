@@ -63,8 +63,8 @@
     "statusBarItem.hoverBackground": "#81a1c130",
 
     // Activity Bar
-    "activityBar.background": "#20232c",
-    "activityBar.border": "#20232c",
+    "activityBar.background": "#212430",
+    "activityBar.border": "#212430",
     "activityBar.foreground": "#737c94",
     "activityBarBadge.background": "#bb6ea7",
     "activityBarBadge.foreground": "#fff",
@@ -73,7 +73,7 @@
     "sideBar.background": "#252833",
     "sideBar.border": "#252833",
     "sideBar.foreground": "#737c94",
-    "sideBarSectionHeader.background": "#20232c",
+    "sideBarSectionHeader.background": "#212430",
     "sideBarTitle.foreground": "#b0bcd3",
 
     // Editor Groups & Tabs
@@ -159,10 +159,10 @@
     "diffEditor.removedTextBackground": "#ff008025",
 
     // Title bar
-    "titleBar.activeBackground": "#20232c",
+    "titleBar.activeBackground": "#212430",
     // "titleBar.activeForeground": "#252833",
     // "titleBar.border": "#25283360",
-    "titleBar.inactiveBackground": "#20232c",
+    "titleBar.inactiveBackground": "#212430",
     // "titleBar.inactiveForeground": "#252833",
     // "menu.border": "#3b404d",
 
