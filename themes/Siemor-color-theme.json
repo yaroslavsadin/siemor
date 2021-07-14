@@ -5,7 +5,7 @@
     "foreground": "#737c94",
     "errorForeground": "#bf616a",
     "widget.shadow": "#517186",
-    "selection.background": "#b0bcd3",
+    // "selection.background": "#b0bcd3",
     "descriptionForeground": "#b0bcd3",
 
     // Button Control
